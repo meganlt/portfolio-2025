@@ -30,7 +30,7 @@ export default function BorrowBurrowPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <Image
-                src="/images/borrow-burrow/homepage.png"
+                src="/images/bb-home.png"
                 alt="Borrow Burrow Homepage"
                 width={600}
                 height={400}
@@ -41,7 +41,7 @@ export default function BorrowBurrowPage() {
             </div>
             <div>
               <Image
-                src="/images/borrow-burrow/item-detail.png"
+                src="/images/bb-myforest.png"
                 alt="Trinket detail view"
                 width={600}
                 height={400}
@@ -52,7 +52,7 @@ export default function BorrowBurrowPage() {
             </div>
             <div>
               <Image
-                src="/images/borrow-burrow/item-detail.png"
+                src="/images/bb-request.png"
                 alt="Trinket detail view"
                 width={600}
                 height={400}
@@ -63,7 +63,7 @@ export default function BorrowBurrowPage() {
             </div>
             <div>
               <Image
-                src="/images/borrow-burrow/item-detail.png"
+                src="/images/bb-mytrinkets.png"
                 alt="Trinket detail view"
                 width={600}
                 height={400}

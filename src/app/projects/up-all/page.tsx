@@ -29,36 +29,48 @@ export default function UpAllPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <Image
-                src="/images/borrow-burrow/homepage.png"
-                alt="Borrow Burrow Homepage"
+                src="/images/ua-manageusers.png"
+                alt="Screenshot of User Management Page"
                 width={600}
                 height={400}
                 className="rounded shadow"
               />
               <h3 className="text-xl font-semibold mt-6 mb-4">User Management</h3>
-              <p className="mt-2">Homepage showcasing featured tools and friendly critters.</p>
+              <p className="mt-2">When users first register, they are set as pending, so they can be accurately assigned the correct role (manager or team member), company, and manager (if they have one).</p>
+              <p>This page allows the admin to initially assign pending users, as well as edit those already assigned.</p>
             </div>
             <div>
               <Image
-                src="/images/borrow-burrow/item-detail.png"
+                src="/images/ua-edituser.png"
+                alt="Screenshot of User Edit Dialog"
+                width={600}
+                height={400}
+                className="rounded shadow"
+              />
+              <h3 className="text-xl font-semibold mt-6 mb-4">User Management: Editing User</h3>
+              <p className="mt-2">Within a dialog, the admin can edit any user information, such as their role or assigned manager. They can also reset the user's password to a new temporary password, if needed. Then, the user can update their password using the User Account screen.</p>
+            </div>
+            <div>
+              <Image
+                src="/images/ua-weeklycontenttall.png"
                 alt="Trinket detail view"
                 width={600}
                 height={400}
                 className="rounded shadow"
               />
               <h3 className="text-xl font-semibold mt-6 mb-4">Weekly Content Library</h3>
-              <p className="mt-2">Item detail page with photo gallery, description, and borrowing info.</p>
+              <p className="mt-2">Here, the admin can create a library of content for managers to review. Currently, the admin organizes these by quarters, each with 12 weeks of content. He can delete or edit the content for any of these weeks.</p>
             </div>
             <div>
               <Image
-                src="/images/borrow-burrow/item-detail.png"
-                alt="Trinket detail view"
+                src="/images/ua-pairassignments.png"
+                alt="Screenshot of Pair Assignments Page"
                 width={600}
                 height={400}
                 className="rounded shadow"
               />
               <h3 className="text-xl font-semibold mt-6 mb-4">Assignment Creation</h3>
-              <p className="mt-2">Item detail page with photo gallery, description, and borrowing info.</p>
+              <p className="mt-2">On this page, the admin can assign a quarter's worth of content to a manager and team-member. Based on the chosen start date, the system will automatically create 12 weeks of content for that manager and team-member pair. Due to the admin's business model, managers can be on a different curriculum schedule with different team members.</p>
             </div>
           </div>
         </section>
@@ -67,25 +79,25 @@ export default function UpAllPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             <div>
               <Image
-                src="/images/borrow-burrow/homepage.png"
-                alt="Borrow Burrow Homepage"
+                src="/images/ua-managerdashboard.png"
+                alt="Manager Dashboard Page Screenshot"
                 width={600}
                 height={400}
                 className="rounded shadow"
               />
               <h3 className="text-xl font-semibold mt-6 mb-4">Manager Dashboard</h3>
-              <p className="mt-2">Homepage showcasing featured tools and friendly critters.</p>
+              <p className="mt-2">The Manager's homepage displays a tabbed list of all employees, with each of their individual paired weekly assignment on the right. This allows managers to quickly navigate between their team members, review the curriculum, and acknowledge they've read the content. "This week's focus" includes an action item related to the curriculum for that week.</p>
             </div>
             <div>
               <Image
-                src="/images/borrow-burrow/item-detail.png"
+                src="/images/ua-account.png"
                 alt="Trinket detail view"
                 width={600}
                 height={400}
                 className="rounded shadow"
               />
               <h3 className="text-xl font-semibold mt-6 mb-4">User Account</h3>
-              <p className="mt-2">Item detail page with photo gallery, description, and borrowing info.</p>
+              <p className="mt-2">Every user has access to the User Account page, where they can update their information, or change their password.</p>
             </div>
           </div>
           <h2 className="text-3xl font-semibold mt-6 mb-4">My Contributions:</h2>

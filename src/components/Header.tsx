@@ -9,7 +9,7 @@ export default function Header() {
         <Link href="/about">About</Link>
         <Link href="/projects">Projects</Link>
         <Link href="https://www.linkedin.com/in/megantegeder/">LinkedIn</Link>
-        <Link href="/projects">Github</Link>
+        <Link href="https://github.com/meganlt/">Github</Link>
       </nav>
     </header>
   );

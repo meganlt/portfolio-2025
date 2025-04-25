@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center p-6 shadow-md">
       <h1 className="text-2xl font-bold">Megan Tegeder</h1>
-      <nav className="space-x-4">
+      <nav className="space-x-8">
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/projects">Projects</Link>

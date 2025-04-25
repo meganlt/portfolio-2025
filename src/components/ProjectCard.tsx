@@ -18,7 +18,7 @@ type ProjectCardProps = {
             height={400}
             className="rounded shadow"
         />
-        <h2 className="text-xl font-semibold mb-2">{title}</h2>
+        <h2 className="text-3xl font-semibold mt-2 mb-2">{title}</h2>
         <p className="text-gray-700 mb-4">{description}</p>
         <a href={link} className="text-blue-600 hover:underline" rel="noopener noreferrer">
           View Project →

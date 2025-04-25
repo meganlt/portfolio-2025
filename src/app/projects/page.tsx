@@ -20,9 +20,9 @@ const projects = [
 export default function ProjectsPage() {
   return (
     <>
-        <section className="max-w-xl mx-auto p-8">
-            <h2 className="text-3xl font-semibold mb-4">Projects</h2>
-            <p>Here's a preview of some of my recent work:</p>
+        <section className="max-w-3/4 text-center mx-auto p-8">
+            <h2 className="text-5xl font-bold">Projects</h2>
+            <p className="p-4">Here's a preview of some of my recent work:</p>
         </section>
         <section className="p-8 grid gap-4 md:grid-cols-2">
             {projects.map((proj, idx) => (

@@ -10,7 +10,7 @@ const projects = [
   },
   {
     title: "Up All",
-    thumbnail: "",
+    thumbnail: "/images/up-all-preview.gif",
     type: "Development",
     description: "A platform for managers to learn better communication and collaboration with team members",
     link: "/projects/up-all",

@@ -20,7 +20,7 @@ type ProjectCardProps = {
         />
         <h2 className="text-xl font-semibold mb-2">{title}</h2>
         <p className="text-gray-700 mb-4">{description}</p>
-        <a href={link} className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">
+        <a href={link} className="text-blue-600 hover:underline" rel="noopener noreferrer">
           View Project →
         </a>
       </div>

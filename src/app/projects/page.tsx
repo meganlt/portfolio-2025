@@ -14,6 +14,13 @@ const projects = [
     type: "Development",
     description: "A platform for managers to learn better communication and collaboration with team members",
     link: "/projects/up-all",
+  },
+  {
+    title: "Tonkadale Learning Hub Refresh",
+    thumbnail: "/images/td-Feature.png",
+    type: "Design &amp; Development",
+    description: "Content re-organization and styling of educational resources for greenhouse customers",
+    link: "/projects/tonkadale",
   }
 ];
 

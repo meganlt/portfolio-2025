@@ -10,17 +10,23 @@ type ProjectCardProps = {
   
   export default function ProjectCard({ title, thumbnail, description, link }: ProjectCardProps) {
     return (
-      <div className="rounded-2xl shadow-md p-4 bg-white hover:shadow-lg transition">
-        <Image
-            src={thumbnail}
-            alt="Borrow Burrow Homepage"
-            width={600}
-            height={400}
-            className="rounded shadow"
-        />
-        <h2 className="text-3xl font-semibold mt-2 mb-2">{title}</h2>
-        <p className="text-gray-700 mb-4">{description}</p>
-        <a href={link} className="text-blue-600 hover:underline" rel="noopener noreferrer">
+      <div className="rounded shadow-md bg-white hover:shadow-lg transition overflow-hidden">
+        <Link
+          href={link}
+          
+        >
+          <Image
+              src={thumbnail}
+              alt="Borrow Burrow Homepage"
+              width={600}
+              height={400}
+              className=""
+          />
+        
+          <h2 className="text-4xl text-center font-semibold pl-4 pr-4 mt-4 mb-2">{title}</h2>
+        </Link>
+        <p className="text-gray-700 pl-4 pr-4 pt-4 mb-4 ">{description}</p>
+        <a href={link} className="block text-blue-600 text-right hover:underline p-4" rel="noopener noreferrer">
           View Project →
         </a>
       </div>

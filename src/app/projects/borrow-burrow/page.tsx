@@ -5,15 +5,8 @@ export default function BorrowBurrowPage() {
     return (
       <div className="max-w-4xl mx-auto p-6 space-y-8">
         <h1 className="text-5xl text-center font-bold">Borrow Burrow</h1>
-        <p className="text-lg">
-          Borrow Burrow is a platform for sharing tools, craft supplies, or media with friends and family in your real-life community. For fun, it's also branded with a whimsical forest theme. 
-        </p>
-        <p className="text-lg">
-          Technologies used: React, Express, Zustand, PostgreSQL, and AWS S3 for image upload and storage.
-        </p>
-  
         <section>
-          <h2 className="text-3xl font-semibold mt-6 mb-4">Video Demo</h2>
+          <h2 className="text-3xl font-semibold mt-12 mb-12 text-center">Video Demo</h2>
           <div className="aspect-video">
             <iframe
               src="https://www.youtube.com/embed/x11XIDltnJQ"
@@ -24,10 +17,42 @@ export default function BorrowBurrowPage() {
             ></iframe>
           </div>
         </section>
-  
         <section>
-          <h2 className="text-3xl font-semibold mt-6 mb-4">Features</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <h2 className="text-3xl font-semibold mt-12 mb-12 text-center">Project Overview</h2>
+          <p className="text-lg">
+            Borrow Burrow is a platform for sharing tools, craft supplies, or media with friends and family in your real-life community. For fun, it's also branded with a whimsical forest theme.
+          </p>
+        </section>
+        <section className="bg-sky-100 p-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">My Contributions:</h3>
+              <ul>
+                <li>Created all low-fidelity wireframes and feature notes for scoping</li>
+                <li>Branded logo and custom illustrated avatar options</li>
+                <li>Creation of overall database structure</li>
+                <li>Full-stack development of all features, views, and styling</li>
+                <li>Global Styling via vanilla CSS and Material UI customization</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Technologies Used:</h3>
+              <ul>
+                <li>Figma</li>
+                <li>React</li>
+                <li>CSS</li>
+                <li>Express</li>
+                <li>Zustand</li>
+                <li>PostgreSQL</li>
+                <li>Material UI</li>
+                <li>Amazon AWS S3 for image uploads</li>
+              </ul>
+            </div>
+          </div>          
+        </section>
+        <section>
+          <h2 className="text-3xl font-semibold mt-12 mb-12 text-center">Features</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-12">
             <div>
               <Image
                 src="/images/bb-home.png"

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <main className="m-4 p-8 text-center rounded-2xl shadow-md bg-white hover:shadow-lg transition">
+    <main className="m-4 p-8 text-center bg-white">
       <Image className="rounded-full m-auto" src="/images/mt-headshot.jpg" width={300} height={300} alt="Headshot of Megan"/>
       <h1 className="text-5xl font-bold mb-4 mt-4">Hi, I'm Megan!</h1>
       <p className="text-3xl">I'm a full-stack developer with a ux and design background, blending technical skill and a creative approach to build user-focused applications.</p> 

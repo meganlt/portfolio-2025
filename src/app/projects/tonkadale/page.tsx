@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function TonkadalePage() {
     return (
-      <div className="mx-auto space-y-8">
+      <div className="mx-auto p-6 space-y-8">
         <h1 className="text-5xl text-center font-bold">Tonkadale</h1>
         <p className="text-lg text-center ">
           Content re-organization and styling of educational resources for greenhouse customers 
@@ -17,24 +17,26 @@ export default function TonkadalePage() {
             className="shadow"
           />
         </section>
-        <section className="bg-sky-100 p-4">
-          <h2 className="text-3xl font-semibold mt-6 mb-4">Project Overview</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-            <div>
-              <p>The client had goals to become a trusted local resource for all things related to houseplants and gardening in the Twin Cities area.</p>
-              <p>They brought me in to create solutions for several hub pages that could organize their learning resources while being easy to maintain for a team without advanced coding knowledge.</p>
-              <p>This project was all about balancing between utilizing their non-technical site features (Shogun Page Builder and BigCommerce) and writing custom code to accomplish their goals, along with training materials to help in maintaining content.</p>
-            </div>
+        <section>
+          <h2 className="text-3xl font-semibold mt-12 mb-12 text-center">Project Overview</h2>
+          <p className="">The client had goals to become a trusted local resource for all things related to houseplants and gardening in the Twin Cities area.</p>
+          <p>They brought me in to create solutions for several hub pages that could organize their learning resources while being easy to maintain for a team without advanced coding knowledge.</p>
+          <p>This project was all about balancing between utilizing their non-technical site features (Shogun Page Builder and BigCommerce) and writing custom code to accomplish their goals, along with training materials to help in maintaining content.</p>
+        </section>
+        <section className="bg-sky-100 p-6">
+          <div className="grid grid-cols-2 sm:grid-cols-2 gap-8">
             <div>
               <h3 className="text-2xl font-semibold mb-4">My Contributions:</h3>
               <ul>
                 <li>A custom "Learn" Hub page to house major content categories</li>
-                  <li>A custom "Video Library" page to house and filter video tutorials</li>
-                  <li>An updated "Blog" listing page</li>
-                  <li>A "Plant Care A-Z" index page to display basic information for 50+ individual plants</li>
-                  <li>A custom "Podcast" page to provide background and episode links to encourage subscriptions</li>
+                <li>A custom "Video Library" page to house and filter video tutorials</li>
+                <li>An updated "Blog" listing page</li>
+                <li>A "Plant Care A-Z" index page to display basic information for 50+ individual plants</li>
+                <li>A custom "Podcast" page to provide background and episode links to encourage subscriptions</li>
               </ul>
-              <h3 className="text-2xl font-semibold mt-4 mb-4">Technologies Used:</h3>
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Technologies Used:</h3>
               <ul>
                 <li>Figma</li>
                 <li>BigCommerce with Shogun Page Builder</li>
@@ -50,7 +52,7 @@ export default function TonkadalePage() {
             <div className=""><h2 className="text-3xl font-semibold mb-4">Process</h2></div>
             <div className="col-span-3">
               <p>
-                First, I met with the business owner to determine their goals for this page, which was to organize helpful customer resources, as well as position the business and a leader in educational content for the local area.
+                First, I met with the business owner to determine their goals for this page, which was to organize helpful customer resources, as well as position the business as a leader in educational content for the local area.
               </p>
               <p>
                 We brainstormed additional pages that could be created to support the overall business goals, such as an additional hub page for housing videos and perennial-specific content. Then, I produced high-fidelity wireframes, performed a content taxonomy audit of blog and video content to recommend tags and consistent organizational filters, and built out the pages utilizing the Shogun web builder app.
